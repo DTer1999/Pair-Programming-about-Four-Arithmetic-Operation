@@ -9,10 +9,10 @@ public class Pair_programming {
 		public int n;
 		
 		/*
-		 *	作用：产生3个随机数，分别对应第一个值、第二个值、运算符
-		 *	问题：random函数如何生成随机数
-		 *	write：马乐；
-		 *	guide：丁涛
+		 *	function：产生3个随机数，分别对应运算数1、运算数2、运算符
+		 *	error：random函数如何生成随机数
+		 *	write：MaLe
+		 *	guide：DingTao
 		 *	*/
 		public void random() {
 			Random rand = new Random();
@@ -22,9 +22,9 @@ public class Pair_programming {
 		}
 		
 		/*
-		 * 作用：创建一个四则运算
-		 * 问题：函数调用，无法传递参数，random(int ,int ,int)为形参，无法传递三个值
-		 * 解决：创建全局变量
+		 * function：创建一个四则运算
+		 * error：函数调用，无法传递参数，random(int ,int ,int)为形参，无法传递三个值
+		 * solve：创建全局变量
 		 * write：DingTao
 		 * guide：MaLe
 		 * */
@@ -62,9 +62,11 @@ public class Pair_programming {
 		/*
 		 * function:机器创建10道题目，用户输入答案，判定对错，给出正确数及分数。
 		 * question:Cannot make a static reference to the non-static method create() from the type main
-		 * answer:创建一个Pair_programming类的对象pair,重新调用该对象中的create()函数。
+		 * solve:创建一个Pair_programming类的对象pair,重新调用该对象中的create()函数。
 		 *  write：MaLe
 		 *  guide：DingTao
+		 *  
+		 *  Solving problem:
 		 *  write：DingTao
 		 *  guide：Male
 		 * */
